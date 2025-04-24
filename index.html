@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify - your favourite music is here</title>
+    <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li class="brand"><img src="logo.png" alt="Spotify">Spotify</li>
+            <li>Home</li>
+            <li>about</li>
+        </ul>
+    </nav>
+
+    <div class="container">
+        
+        <div class="songList">
+            <h1>Best of NCS - No Copyright Sounds</h1>
+            <div class="songItemContainer">
+                <div class="songItem">
+                    <img src="1.jpg" alt="1" >
+                    <span class="songName">Let me Love You</span>
+                   <span class="songlistplay"><span class="timeStamp">05:34 <i data-index="0" class="far songItemPlay fa-circle-play"></i></span></span>
+                </div>
+                <div class="songItem">
+                    <img src="2.jpg" alt="1" >
+                    <span class="songName" >Cielo - Huma-Huma</span>
+                   <span class="songlistplay"><span class="timeStamp">05:34 <i data-index="1" class="far songItemPlay fa-circle-play"></i></span></span>
+                </div>
+                <div class="songItem">
+                    <img src="3.jpg" alt="1" >
+                    <span class="songName">DEAF KEV - Invincible</span>
+                   <span class="songlistplay"><span class="timeStamp">05:34 <i data-index="2" class="far songItemPlay fa-circle-play"></i></span></span>
+                </div>
+                <div class="songItem">
+                    <img src="4.jpg" alt="1" >
+                    <span class="songName">Different Heaven & EH!DE</span>
+                   <span class="songlistplay"><span class="timeStamp">05:34 <i data-index="3"class="far songItemPlay fa-circle-play"></i></span></span>
+                </div>
+                <div class="songItem">
+                    <img src="5.jpg" alt="1" >
+                    <span class="songName">janji-Heroes</span>
+                   <span class="songlistplay"><span class="timeStamp">05:34 <i data-index="4"class="far songItemPlay fa-circle-play"></i></span></span>
+                 </div>
+                <div class="songItem">
+                    <img src="6.jpg" alt="1" >
+                    <span class="songName">Rabba</span>
+                   <span class="songlistplay"><span class="timeStamp">05:34 <i data-index="5"class="far songItemPlay fa-circle-play"></i></span></span>
+                </div>
+                <div class="songItem">
+                    <img src="7.jpg" alt="1" >
+                    <span class="songName">Sakhiyan</span>
+                   <span class="songlistplay"><span class="timeStamp">05:34 <i data-index="6"class="far songItemPlay fa-circle-play"></i></span></span>
+                </div>
+                <div class="songItem">
+                    <img src="8.jpg" alt="1" >
+                    <span class="songName">Bhula dena</span>
+                   <span class="songlistplay"><span class="timeStamp">05:34 <i data-index="7"class="far songItemPlay fa-circle-play"></i></span></span>
+                </div>
+                <div class="songItem">
+                    <img src="9.jpg" alt="1" >
+                    <span class="songName">Tumhari kasam</span>
+                   <span class="songlistplay"><span class="timeStamp">05:34 <i data-index="8"class="far songItemPlay fa-circle-play"></i></span></span>
+                </div>
+                <div class="songItem">
+                    <img src="10.jpg" alt="1" >
+                    <span class="songName">Salam-e-Ishq</span>
+                   <span class="songlistplay"><span class="timeStamp">05:34 <i data-index="9"class="far songItemPlay fa-circle-play"></i></span></span>
+                </div>
+            </div>
+        </div>
+        <div class="songBanner"></div>
+    </div>
+    <div class="bottom">
+        <input type="range" name="range" id="myProgressBar" min="0" value="0" max="100">
+        <div class="icons">
+            
+            <i data-index="0" class="fas songItemPlay fa-3x fa-backward-step" id="previous"></i>
+            <i data-index="1" class="far songItemPlay fa-3x fa-circle-play" id="masterPlay"></i>
+            <i data-index="2" class="fas songItemPlay fa-3x fa-forward-step" id="next"></i>
+        </div>
+        <div class="songInfo">
+            <img src="playing.gif" width="42px" alt="" id="gif"> <span id="mastersongName">warriyo - Mortals</span>
+        </div>
+    </div>
+    <script src="https://kit.fontawesome.com/40407496e6.js" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+</html>
